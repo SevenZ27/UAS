@@ -12,6 +12,15 @@
     set(main, 'role', 'main');
     set(main, 'aria-label', 'Simulator kategori kredit');
     set(document.documentElement, 'lang', 'id');
+    // The pinned Community Cloud toolbar renders its GitHub source icon unnamed.
+    // Its destination was verified in the public deployment; retain any native name.
+    document.querySelectorAll('[data-testid="stToolbarActionButton"] button').forEach(button => {
+      if (button.querySelector('[data-testid="stToolbarActionButtonIcon"]') &&
+          !button.getAttribute('aria-label')?.trim() && !button.textContent.trim()) {
+        set(button, 'aria-label', 'Lihat kode sumber di GitHub');
+        set(button, 'title', 'Lihat kode sumber di GitHub');
+      }
+    });
     for (const id of ['isi-profil', 'hasil-prediksi', 'evaluasi-model']) {
       set(document.getElementById(id), 'tabindex', '-1');
     }
