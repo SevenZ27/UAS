@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-21",
+  "url": "https://credit-score-steven.streamlit.app/",
+  "application_commit": "cc04447726dcac77383750df87b9c9f896e8f56d",
+  "model_version": "stage2-49c6876730d2",
+  "model_sha256": "d8f6ce0302a8954f4f15be17ad726bd26068ffacb3b2396bc0867f73a0af20b1",
+  "unit_integration_tests_passed": 119,
+  "public_widths": [
+    1440,
+    900,
+    390,
+    320
+  ],
+  "public_download_model_response_parity": true,
+  "outside_range_original_input_retained": true,
+  "clean_git_checkout_prediction_and_app_render": true,
+  "private_csv_required_for_serving": false,
+  "frozen_model_and_report_unchanged": true,
+  "original_archive_files_unchanged": 20,
+  "raw_csv_split_indices_and_row_predictions_not_published": true,
+  "cloud_input_contrast_ratio": 11.180061290794818,
+  "cloud_source_icon_accessible_name_verified": true
+}

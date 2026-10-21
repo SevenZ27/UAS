@@ -59,7 +59,7 @@ uv run python -m scripts.package_sagemaker
 uv run python -m scripts.verify_sagemaker_package
 ```
 
-The release passes 119 tests. Browser verification covers widths 1440, 900, 390 and 320 px, touch emulation, normal and unfamiliar-range predictions, errors/recovery, reset, JSON export, keyboard focus, 200% text and reduced motion. Axe reports no violations in checked states; this is not formal accessibility certification or physical Safari testing. See [release evidence](docs/verification/browser-release-local.json), [keyboard checks](docs/verification/keyboard-release-local.json) and [design notes](docs/DESIGN.md).
+The release passes 119 tests. Browser verification covers widths 1440, 900, 390 and 320 px, touch emulation, normal and unfamiliar-range predictions, errors/recovery, reset, JSON export, keyboard focus, 200% text and reduced motion. Axe reports no violations in checked app-frame states; one inconclusive mobile input-contrast result was measured at 11.18:1. this is not formal accessibility certification or physical Safari testing. See [public release evidence](docs/verification/browser-live.json), [keyboard checks](docs/verification/keyboard-release-local.json) and [design notes](docs/DESIGN.md).
 
 Browser tools are pinned independently:
 

@@ -12,10 +12,12 @@ async page => {
   const p=await (await shell.locator('iframe[title="streamlitApp"]').elementHandle()).contentFrame();
   const predict=p.getByRole('button',{name:'Prediksi kategori',exact:true});
   await predict.waitFor();
+  if(width===1440) await p.getByRole('button',{name:'Lihat kode sumber di GitHub',exact:true}).waitFor({timeout:60000});
   await p.waitForFunction(()=>document.querySelector('[data-testid="stMain"]')?.getAttribute('role')==='main');
   check(await p.getByRole('textbox').count()===17,'Expected 17 numeric text fields');
   check(await p.locator('.category-list [aria-current]').count()===0,'Empty result implies a label');
-  await shell.screenshot({path:`docs/screenshots/live-${width}-empty.png`});
+  await p.waitForFunction(()=>document.querySelector('[data-testid="stApp"]')?.getAttribute('data-test-script-state')==='notRunning');
+  await shell.screenshot({animations:'disabled',path:`docs/screenshots/live-${width}-empty.png`});
   const activate=async locator=>width<500?locator.tap():locator.click();
   await activate(predict);
   const result=p.getByText(/Kategori model:/);
@@ -26,7 +28,8 @@ async page => {
    const [download]=await Promise.all([shell.waitForEvent('download'),p.getByRole('button',{name:'Unduh ringkasan JSON'}).click()]);
    await download.saveAs('qa/browser-live-download.json');
   }
-  await shell.screenshot({path:`docs/screenshots/live-${width}-result.png`});
+  await p.waitForFunction(()=>document.querySelector('[data-testid="stApp"]')?.getAttribute('data-test-script-state')==='notRunning');
+  await shell.screenshot({animations:'disabled',path:`docs/screenshots/live-${width}-result.png`});
   const age=p.getByRole('textbox',{name:'Usia (tahun)',exact:true});
   await age.fill('34');await age.press('Enter');
   await p.waitForFunction(()=>!document.body.innerText.includes('Kategori model:'));
@@ -51,7 +54,8 @@ async page => {
   if(width===1440){
    const [download]=await Promise.all([shell.waitForEvent('download'),p.getByRole('button',{name:'Unduh ringkasan JSON'}).click()]);await download.saveAs('qa/browser-live-outside.json');
   }
-  await shell.screenshot({path:`docs/screenshots/live-${width}-outside.png`});
+  await p.waitForFunction(()=>document.querySelector('[data-testid="stApp"]')?.getAttribute('data-test-script-state')==='notRunning');
+  await shell.screenshot({animations:'disabled',path:`docs/screenshots/live-${width}-outside.png`});
   await p.getByRole('button',{name:'Muat contoh nilai dataset',exact:true}).click();
   await p.waitForFunction(()=>document.querySelector('input[aria-label="Usia (tahun)"]').value==='33');
   const salary=p.getByRole('textbox',{name:'Pendapatan bersih bulanan',exact:true});
@@ -68,7 +72,8 @@ async page => {
   await p.getByText('Lihat benchmark dan kesalahan per kelas',{exact:true}).click();
   await p.getByRole('table',{name:'Confusion matrix holdout; persen per kelas aktual'}).waitFor();
   await p.getByRole('table',{name:'Confusion matrix holdout; persen per kelas aktual'}).scrollIntoViewIfNeeded();
-  await shell.screenshot({path:`docs/screenshots/live-${width}-evaluation.png`});
+  await p.waitForFunction(()=>document.querySelector('[data-testid="stApp"]')?.getAttribute('data-test-script-state')==='notRunning');
+  await shell.screenshot({animations:'disabled',path:`docs/screenshots/live-${width}-evaluation.png`});
   await p.addScriptTag({path:'node_modules/axe-core/axe.min.js'});
   const axe=await p.evaluate(async()=>{
    const r=await window.axe.run();return {violations:r.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>({html:n.html,summary:n.failureSummary}))})),incomplete:r.incomplete.map(v=>({id:v.id,count:v.nodes.length}))};

@@ -1,0 +1,91 @@
+{
+  "origin": "https://credit-score-steven.streamlit.app/",
+  "tool": "Playwright CLI",
+  "cases": [
+    {
+      "width": 1440,
+      "touchEmulated": false,
+      "localPrediction": true,
+      "resultFocus": true,
+      "editClearsResult": true,
+      "editPreservesFocus": true,
+      "namedNumericFields": true,
+      "missingAgeError": true,
+      "missingFeatureWarning": true,
+      "backendErrorAndRecovery": true,
+      "invalidAgeRejected": true,
+      "outsideTrainingRangeResultWithWarning": true,
+      "overflow": false,
+      "errors": [],
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 900,
+      "touchEmulated": false,
+      "localPrediction": true,
+      "resultFocus": true,
+      "editClearsResult": true,
+      "editPreservesFocus": true,
+      "namedNumericFields": true,
+      "missingAgeError": true,
+      "missingFeatureWarning": true,
+      "backendErrorAndRecovery": true,
+      "invalidAgeRejected": true,
+      "outsideTrainingRangeResultWithWarning": true,
+      "overflow": false,
+      "errors": [],
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 390,
+      "touchEmulated": true,
+      "localPrediction": true,
+      "resultFocus": true,
+      "editClearsResult": true,
+      "editPreservesFocus": true,
+      "namedNumericFields": true,
+      "missingAgeError": true,
+      "missingFeatureWarning": true,
+      "backendErrorAndRecovery": true,
+      "invalidAgeRejected": true,
+      "outsideTrainingRangeResultWithWarning": true,
+      "overflow": false,
+      "errors": [],
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "width": 320,
+      "touchEmulated": true,
+      "localPrediction": true,
+      "resultFocus": true,
+      "editClearsResult": true,
+      "editPreservesFocus": true,
+      "namedNumericFields": true,
+      "missingAgeError": true,
+      "missingFeatureWarning": true,
+      "backendErrorAndRecovery": true,
+      "invalidAgeRejected": true,
+      "outsideTrainingRangeResultWithWarning": true,
+      "overflow": false,
+      "errors": [],
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 1
+          }
+        ]
+      }
+    }
+  ]
+}

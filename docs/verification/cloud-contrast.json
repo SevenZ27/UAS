@@ -1,0 +1,11 @@
+{
+  "scope": "Community Cloud app frame at 320 px",
+  "axe_incomplete": "Age input partially obscured at scan position; contrast could not be determined automatically",
+  "method": "Read actual foreground and first opaque ancestor background after scrolling input into view; calculate WCAG sRGB contrast",
+  "measured": {
+    "foreground": "rgb(49, 51, 63)",
+    "background": "rgb(240, 242, 246)",
+    "contrastRatio": 11.180061290794818
+  },
+  "passes_4_5_to_1": true
+}
