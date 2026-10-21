@@ -1,0 +1,25 @@
+{
+  "contract_version": "1.0",
+  "instances": [
+    {
+      "Age": 33,
+      "Annual_Income": 37486.02,
+      "Monthly_Inhand_Salary": 3081.1708333333336,
+      "Num_Bank_Accounts": 6,
+      "Num_Credit_Card": 5,
+      "Interest_Rate": 13.0,
+      "Num_of_Loan": 3,
+      "Delay_from_due_date": 18,
+      "Num_of_Delayed_Payment": 14,
+      "Changed_Credit_Limit": 9.47,
+      "Num_Credit_Inquiries": 6,
+      "Outstanding_Debt": 1166.23,
+      "Credit_Utilization_Ratio": 32.2930418554973,
+      "Credit_History_Age": 219,
+      "Payment_of_Min_Amount": 1,
+      "Total_EMI_per_month": 68.54205264869616,
+      "Amount_invested_monthly": 134.5531623561474,
+      "Monthly_Balance": 336.4704042769922
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "independent_metrics_match": true,
+  "selection_frozen_before_final_scoring": true,
+  "folds_and_holdout_unchanged": true,
+  "source_and_protocol_hashes_match": true,
+  "train_only_medians_match": true,
+  "accepted_holdout_service_parity_cases": 100,
+  "rejected_profile_cases": 10,
+  "baseline_match": true,
+  "model_version": "stage2-49c6876730d2",
+  "source_report_sha256": "3c38004eadfb556d0f27c6dc49f74bbb51a96fed2b42b91b5e2fca36e41a7cc9"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "credit-score-browser-qa",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Browser QA tools only; the deployed application runs Python and Streamlit",
+  "devDependencies": {"@playwright/cli": "0.1.22", "axe-core": "4.14.0"}
+}

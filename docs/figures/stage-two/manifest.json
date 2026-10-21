@@ -1,0 +1,47 @@
+{
+  "source_files": {
+    "cv-results.json": "f26d54a0423c788181949283090209b0d53e642bc0d7ee949fa9290ff7e54e84",
+    "holdout-results.json": "3c38004eadfb556d0f27c6dc49f74bbb51a96fed2b42b91b5e2fca36e41a7cc9"
+  },
+  "figures": {
+    "development-comparison.png": {
+      "bytes": 73649,
+      "sha256": "bb4494e45395a9f4ddba43ddcd83128778b5a353f14e8c092f5fcdfa4155677d"
+    },
+    "development-comparison.svg": {
+      "bytes": 18518,
+      "sha256": "d00536f5555d62a55f69bb5c007b0325ca91bbc67b8667e51d6199915fbb2d85"
+    },
+    "holdout-confusion.png": {
+      "bytes": 72943,
+      "sha256": "b9e20169d23c220dd27505e912e0967679cbbceee367454cccd075c5ebaff4aa"
+    },
+    "holdout-confusion.svg": {
+      "bytes": 14797,
+      "sha256": "5bfdfa3d2502c71e1944d27960a60b632cd8b0aef820380ddd728ceb3a3fcff3"
+    },
+    "holdout-reliability.png": {
+      "bytes": 149099,
+      "sha256": "597f475723e5e0f9d289d91dbdfe1a3c0bc42f74a621466484576f015adbd7f5"
+    },
+    "holdout-reliability.svg": {
+      "bytes": 24661,
+      "sha256": "570f863935d007cad3aafd4788b870431e2a37fc3b72cef2ccd7a3a821293d96"
+    },
+    "holdout-uncertainty.png": {
+      "bytes": 42642,
+      "sha256": "11caca505fa33353e709ae317ded82b24f44be3488b863d2f25deb29f3a5f4d0"
+    },
+    "holdout-uncertainty.svg": {
+      "bytes": 11630,
+      "sha256": "502c8f1094ad428c2c67a5dca8770c26e676452c2cd1301b93ed12073d7d007a"
+    }
+  },
+  "uncertainty": "2000 customer-cluster bootstrap replicates; fixed-model percentile intervals",
+  "alt_text": {
+    "development-comparison": "Eight development variants with individual fold macro-F1 points and means; sensitivity variants excluded from selection.",
+    "holdout-confusion": "Three-category confusion matrix with counts and percentages normalized within each actual class.",
+    "holdout-reliability": "Raw and temperature-scaled top-label calibration bins, with observation counts in a companion panel.",
+    "holdout-uncertainty": "Selected model point estimates and 95% customer-cluster intervals compared with baseline point estimates."
+  }
+}

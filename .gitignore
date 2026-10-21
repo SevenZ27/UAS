@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.env*
+.streamlit/secrets.toml
+artifacts/*.joblib
+artifacts/*.npz
+artifacts/**/*.joblib
+artifacts/**/*.npz
+!artifacts/pipeline.joblib
+qa/
+.playwright-cli/
+node_modules/
+data/*.csv

@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-21T09:32:16.716161+00:00",
+  "model_version": "stage2-49c6876730d2",
+  "tests": {
+    "passed": 110,
+    "failed": 0,
+    "seconds": 7.302,
+    "junit": "tests-stage-three.xml"
+  },
+  "browser": "browser-stage-three.json",
+  "keyboard": "keyboard-stage-three.json",
+  "axe_violations": 0,
+  "incomplete_contrast_manual_review_ratio": 12.530577405397876,
+  "download_matches_actual_local_inference": true,
+  "model_and_report_unchanged": true,
+  "archive_files_unchanged": 20,
+  "mechanical_design_detector": [],
+  "source_sha256": {
+    "app_streamlit.py": "d0c59c05811d663e19c271fff766a9ee87cac814c2c027c8b0f85f1cba1432e4",
+    "credit_score\\presentation.py": "fbd0c6176fb38f7ea0bf2aab30a01377de4f759cd82dd27a5df2356ad1977deb",
+    "ui\\styles.css": "c3e27c11e2ad92bb53b2c2857e784dd01d27d80c6467bbc568b4e70bf60f3620",
+    "ui\\accessibility.js": "3a6b00e231cf43524b55f30e9c771d5b8b83d13dedf1b2ce6cdef1a7f6f21904",
+    "scripts\\verify_browser_stage_three.js": "b38cda5750e99a4101794ca72653c08551ec071a7ab204952e67d74dae15d6ea",
+    "scripts\\verify_keyboard_stage_three.js": "3f87490171bb54ed7d28af343021d3dbf25ac86cea60646b939236cf22448994"
+  },
+  "cloud_deployed": false,
+  "limits": [
+    "Chrome responsive and touch emulation, not physical-device or Safari validation",
+    "No formal WCAG certification or human screen-reader study"
+  ]
+}

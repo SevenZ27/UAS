@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-10-21T08:56:19.588672+00:00",
+  "model_version": "stage2-49c6876730d2",
+  "model_sha256": "d8f6ce0302a8954f4f15be17ad726bd26068ffacb3b2396bc0867f73a0af20b1",
+  "tests": {
+    "command": "python -m pytest -q --basetemp=qa/pytest-stage-two-final --junitxml=docs/verification/tests-stage-two.xml",
+    "passed": 91,
+    "failed": 0,
+    "junit": "verification/tests-stage-two.xml",
+    "seconds": 5.348
+  },
+  "ruff": "passed",
+  "independent_evaluation": "verification/evaluation-stage-two.json",
+  "browser_evidence": "verification/browser-stage-two.json",
+  "packaged_inference": "verification/sagemaker-package.json",
+  "archive_files_unchanged": 20,
+  "stage_one_checkpoint_verified": true,
+  "split_unchanged": true,
+  "figures_png_verified": 4,
+  "remaining_framework_axe_findings": [
+    "button-name",
+    "region"
+  ],
+  "cloud_deployed": false,
+  "source_sha256": {
+    "credit_score\\__init__.py": "5d933e5ffd5ad8f5725e56e89f0867a91bf0ef591127808c5a94830bbf84c9b0",
+    "credit_score\\client.py": "90947eaedf3ede3efad6a5388fdb24206e5eb9e7e8e56e680bd38e77fe6f53c9",
+    "credit_score\\contract.py": "df0b7759dd7ab0bcb777d0e126bca38bd24afafe2503050b1db066db8a6feb2f",
+    "credit_score\\evaluate.py": "d584744f5b6efda1ff0ee46c4b98c6476fcbd258c258ea568133463480067acb",
+    "credit_score\\evaluation_metrics.py": "f4cdb36cec8b5fe92415f11a0b502f1d704ecee7a5ed6a8cac2356617d78867a",
+    "credit_score\\evaluation_models.py": "9737232e99df8f116a13c27bd34a2da621ed9c160e709de912cdc6063fcf3033",
+    "credit_score\\evaluation_splits.py": "16b1e1ce66a997813954d71bac20c57d2d6bb10b342fba74ba0adf559e34761a",
+    "credit_score\\preprocessing.py": "73b97fd1f339e9eb56624da7963bc2afe312cdfb640bb1d63e25f880d5e51f4b",
+    "credit_score\\service.py": "3a7021d263c6cc29a165fd1d8204e1a4103ba7d3c90b27ddc484f9cfcd0ccc86",
+    "credit_score\\training.py": "529bff0b948b45f26612f6ade3b43d844c0ecf6c1c4a0192a3e8f134e8d2182c",
+    "scripts\\package_sagemaker.py": "656744b17a21efa5a36882dcdfe641ce671cba3d374222b1b9d99f4cd22b2c47",
+    "scripts\\plot_evaluation.py": "a28eb2238605146747272c83ad29b914c22b1578f2634ea177c5846655f35603",
+    "scripts\\promote_evaluated_bundle.py": "98a982a7e36d5abc5f2498a914d2c7ddf18fa2a7216db30227e7420e774b0c22",
+    "scripts\\verify_browser.mjs": "2fa5679ef489a4ba1490a559cc8ea71d2d8c7447922522ddb553fc3e430faa31",
+    "scripts\\verify_evaluation.py": "06c420b5de0240193a81f20834e000a812877f323b9137eec2604c5e4b89f35a",
+    "scripts\\verify_sagemaker_package.py": "1bf2465bd1ca7974982448fc7475c2da8a88cb2b56836b830730e93439addc3e",
+    "tests\\conftest.py": "d336114ef5ed4bd15af026fdd77bc9c49b37f390b13f430facb8920bfd930ebd",
+    "tests\\test_app.py": "00aeac829c7f6e81f44f48674ab3754c6c89782a579a5c959cc8cf72dc0b6620",
+    "tests\\test_contract.py": "3976772db9ce22d3ec9208087f25a531c0fc22e79f8a7f54d1159f29bd4b009f",
+    "tests\\test_evaluation.py": "baf25fc1e3803ef886c0d469c1a5f13d8abc0a12ff778042b9cbaf62aeec00a6",
+    "tests\\test_prediction.py": "3fd237a612914e0ffec842efbb2275dea5596421003a515a95ebb05e82d6dbe4",
+    "tests\\test_preprocessing.py": "c9d699d381ebcc5d89bd8bde72fab65fdc4d1a4fe22bf60aba56d99b84212231",
+    "app_streamlit.py": "f54ecfe4ed4816144b784a4a7ba9a3474e17f2b272bb7a4c5a1dceddfeeeee18"
+  },
+  "documentation_local_links": "passed"
+}

@@ -1,0 +1,27 @@
+{
+  "scope": "Fresh-process packaged hooks; no AWS resource called",
+  "model_version": "stage2-49c6876730d2",
+  "local_matches_packaged": true,
+  "dataset_absent": true,
+  "split_indices_absent": true,
+  "profiles_checked": 3,
+  "outside_range_warning_parity": true,
+  "members": [
+    "pipeline.joblib",
+    "metadata.json",
+    "code/inference.py",
+    "code/requirements.txt",
+    "code/credit_score/__init__.py",
+    "code/credit_score/client.py",
+    "code/credit_score/contract.py",
+    "code/credit_score/evaluate.py",
+    "code/credit_score/evaluation_metrics.py",
+    "code/credit_score/evaluation_models.py",
+    "code/credit_score/evaluation_splits.py",
+    "code/credit_score/preprocessing.py",
+    "code/credit_score/presentation.py",
+    "code/credit_score/service.py",
+    "code/credit_score/serving_policy.py",
+    "code/credit_score/training.py"
+  ]
+}

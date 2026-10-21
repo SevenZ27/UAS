@@ -1,0 +1,109 @@
+{
+  "development_rows": 19989,
+  "holdout_rows": 5011,
+  "development_customers": 9003,
+  "holdout_customers": 2251,
+  "shared_customers": 0,
+  "folds": [
+    {
+      "fold": 0,
+      "train_rows": 15989,
+      "validation_rows": 4000,
+      "train_customers": 7182,
+      "validation_customers": 1821,
+      "shared_customers": 0,
+      "train_class_counts": {
+        "Standard": 8509,
+        "Poor": 4648,
+        "Good": 2832
+      },
+      "validation_class_counts": {
+        "Standard": 2128,
+        "Poor": 1163,
+        "Good": 709
+      },
+      "train_indices_sha256": "fde6aad4428309d8c06e3712d9f6f7afebd2e2edfda61c4d8472999f8bd46d04",
+      "validation_indices_sha256": "5f0b489cb1cbb84c40968b088e92dc7ca53aa5a617f660d3f305fdcbc944a443"
+    },
+    {
+      "fold": 1,
+      "train_rows": 15991,
+      "validation_rows": 3998,
+      "train_customers": 7192,
+      "validation_customers": 1811,
+      "shared_customers": 0,
+      "train_class_counts": {
+        "Standard": 8509,
+        "Poor": 4649,
+        "Good": 2833
+      },
+      "validation_class_counts": {
+        "Standard": 2128,
+        "Poor": 1162,
+        "Good": 708
+      },
+      "train_indices_sha256": "e184bbbf48cc89a03f5a0d5ad24f3a20bad881d6d822006746a757ef60a115f9",
+      "validation_indices_sha256": "be4b5290f4146a07f667f6a720942eaf5ac2da3a2b45a311470a0dd9b0cdd372"
+    },
+    {
+      "fold": 2,
+      "train_rows": 15992,
+      "validation_rows": 3997,
+      "train_customers": 7217,
+      "validation_customers": 1786,
+      "shared_customers": 0,
+      "train_class_counts": {
+        "Standard": 8510,
+        "Poor": 4649,
+        "Good": 2833
+      },
+      "validation_class_counts": {
+        "Standard": 2127,
+        "Poor": 1162,
+        "Good": 708
+      },
+      "train_indices_sha256": "49b3bacc3461d06bd9d8b4bb4a918aece6f59a61504d81c8e7b359b826f4ca13",
+      "validation_indices_sha256": "9cc729930920cfe9655ceb2572503474c45fdf702e5d89cf3306df42784012bd"
+    },
+    {
+      "fold": 3,
+      "train_rows": 15992,
+      "validation_rows": 3997,
+      "train_customers": 7211,
+      "validation_customers": 1792,
+      "shared_customers": 0,
+      "train_class_counts": {
+        "Standard": 8510,
+        "Poor": 4649,
+        "Good": 2833
+      },
+      "validation_class_counts": {
+        "Standard": 2127,
+        "Poor": 1162,
+        "Good": 708
+      },
+      "train_indices_sha256": "4d53e20695ddc30e8c2b9cbe00d64bcf9efb2fce86c48bab505619ea646b3656",
+      "validation_indices_sha256": "bbfbfa025533c935c8c3d776e29fda53259ccdff9883c44e30ffe603417f2d68"
+    },
+    {
+      "fold": 4,
+      "train_rows": 15992,
+      "validation_rows": 3997,
+      "train_customers": 7210,
+      "validation_customers": 1793,
+      "shared_customers": 0,
+      "train_class_counts": {
+        "Standard": 8510,
+        "Poor": 4649,
+        "Good": 2833
+      },
+      "validation_class_counts": {
+        "Standard": 2127,
+        "Poor": 1162,
+        "Good": 708
+      },
+      "train_indices_sha256": "74a3aac375c4af1fec54e57eee73e28f59223ea917c04e5b9534edb562c636db",
+      "validation_indices_sha256": "e16f4709b655681db3177ba05468bc518aa4de6e3fa95465e44dbed1f3016464"
+    }
+  ]
+}

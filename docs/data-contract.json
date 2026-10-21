@@ -1,0 +1,192 @@
+{
+  "contract_version": "1.0",
+  "classes": [
+    "Good",
+    "Poor",
+    "Standard"
+  ],
+  "max_batch": 100,
+  "features": [
+    {
+      "name": "Age",
+      "label": "Usia",
+      "unit": "tahun",
+      "minimum": 0,
+      "maximum": 120,
+      "integer": true,
+      "nullable": false,
+      "help": ""
+    },
+    {
+      "name": "Annual_Income",
+      "label": "Pendapatan tahunan",
+      "unit": "unit uang dataset",
+      "minimum": 0,
+      "maximum": null,
+      "integer": false,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Monthly_Inhand_Salary",
+      "label": "Pendapatan bersih bulanan",
+      "unit": "unit uang dataset",
+      "minimum": 0,
+      "maximum": null,
+      "integer": false,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Num_Bank_Accounts",
+      "label": "Jumlah rekening bank",
+      "unit": "rekening",
+      "minimum": 0,
+      "maximum": null,
+      "integer": true,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Num_Credit_Card",
+      "label": "Jumlah kartu kredit",
+      "unit": "kartu",
+      "minimum": 0,
+      "maximum": null,
+      "integer": true,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Interest_Rate",
+      "label": "Suku bunga",
+      "unit": "%",
+      "minimum": 0,
+      "maximum": 100,
+      "integer": false,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Num_of_Loan",
+      "label": "Jumlah pinjaman",
+      "unit": "pinjaman",
+      "minimum": 0,
+      "maximum": null,
+      "integer": true,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Delay_from_due_date",
+      "label": "Selisih dari jatuh tempo",
+      "unit": "hari",
+      "minimum": null,
+      "maximum": null,
+      "integer": true,
+      "nullable": true,
+      "help": "Nilai negatif dipertahankan sebagai selisih sebelum jatuh tempo; definisi sumber masih perlu dikonfirmasi."
+    },
+    {
+      "name": "Num_of_Delayed_Payment",
+      "label": "Jumlah pembayaran terlambat",
+      "unit": "kejadian",
+      "minimum": 0,
+      "maximum": null,
+      "integer": true,
+      "nullable": true,
+      "help": "Periode penghitungan belum terdokumentasi pada sumber."
+    },
+    {
+      "name": "Changed_Credit_Limit",
+      "label": "Perubahan limit kredit",
+      "unit": "unit dataset",
+      "minimum": null,
+      "maximum": null,
+      "integer": false,
+      "nullable": true,
+      "help": "Nilai negatif boleh diisi. Satuan asli belum dipastikan sebagai persen atau nominal."
+    },
+    {
+      "name": "Num_Credit_Inquiries",
+      "label": "Jumlah pemeriksaan kredit",
+      "unit": "pemeriksaan",
+      "minimum": 0,
+      "maximum": null,
+      "integer": true,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Outstanding_Debt",
+      "label": "Sisa utang",
+      "unit": "unit uang dataset",
+      "minimum": 0,
+      "maximum": null,
+      "integer": false,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Credit_Utilization_Ratio",
+      "label": "Penggunaan kredit",
+      "unit": "%",
+      "minimum": 0,
+      "maximum": 100,
+      "integer": false,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Credit_History_Age",
+      "label": "Usia riwayat kredit",
+      "unit": "bulan",
+      "minimum": 0,
+      "maximum": null,
+      "integer": true,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Payment_of_Min_Amount",
+      "label": "Membayar jumlah minimum",
+      "unit": "biner",
+      "minimum": 0,
+      "maximum": 1,
+      "integer": true,
+      "nullable": true,
+      "help": "Mengikuti encoding dataset: Ya = 1, Tidak = 0. Makna operasional label belum tervalidasi."
+    },
+    {
+      "name": "Total_EMI_per_month",
+      "label": "Total cicilan bulanan",
+      "unit": "unit uang dataset",
+      "minimum": 0,
+      "maximum": null,
+      "integer": false,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Amount_invested_monthly",
+      "label": "Investasi bulanan",
+      "unit": "unit uang dataset",
+      "minimum": 0,
+      "maximum": null,
+      "integer": false,
+      "nullable": true,
+      "help": ""
+    },
+    {
+      "name": "Monthly_Balance",
+      "label": "Saldo bulanan",
+      "unit": "unit uang dataset",
+      "minimum": null,
+      "maximum": null,
+      "integer": false,
+      "nullable": true,
+      "help": ""
+    }
+  ],
+  "money_unit": "Unspecified source dataset units; no currency conversion"
+}

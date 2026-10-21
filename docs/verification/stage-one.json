@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-21T08:26:25.876445+00:00",
+  "model_version": "stage1-b098e3ec6e0b",
+  "tests": {
+    "command": "python -m pytest -q --basetemp=qa/pytest-final-theme",
+    "passed": 74,
+    "failed": 0
+  },
+  "ruff": "passed",
+  "compile": "passed",
+  "archive_files_unchanged": 20,
+  "source_sha256": {
+    "credit_score\\client.py": "90947eaedf3ede3efad6a5388fdb24206e5eb9e7e8e56e680bd38e77fe6f53c9",
+    "credit_score\\contract.py": "df0b7759dd7ab0bcb777d0e126bca38bd24afafe2503050b1db066db8a6feb2f",
+    "credit_score\\preprocessing.py": "73b97fd1f339e9eb56624da7963bc2afe312cdfb640bb1d63e25f880d5e51f4b",
+    "credit_score\\service.py": "3a7021d263c6cc29a165fd1d8204e1a4103ba7d3c90b27ddc484f9cfcd0ccc86",
+    "credit_score\\training.py": "529bff0b948b45f26612f6ade3b43d844c0ecf6c1c4a0192a3e8f134e8d2182c",
+    "credit_score\\__init__.py": "5d933e5ffd5ad8f5725e56e89f0867a91bf0ef591127808c5a94830bbf84c9b0",
+    "tests\\conftest.py": "d336114ef5ed4bd15af026fdd77bc9c49b37f390b13f430facb8920bfd930ebd",
+    "tests\\test_app.py": "00aeac829c7f6e81f44f48674ab3754c6c89782a579a5c959cc8cf72dc0b6620",
+    "tests\\test_contract.py": "3976772db9ce22d3ec9208087f25a531c0fc22e79f8a7f54d1159f29bd4b009f",
+    "tests\\test_prediction.py": "3fd237a612914e0ffec842efbb2275dea5596421003a515a95ebb05e82d6dbe4",
+    "tests\\test_preprocessing.py": "c9d699d381ebcc5d89bd8bde72fab65fdc4d1a4fe22bf60aba56d99b84212231",
+    "scripts\\package_sagemaker.py": "656744b17a21efa5a36882dcdfe641ce671cba3d374222b1b9d99f4cd22b2c47",
+    "scripts\\verify_sagemaker_package.py": "1bf2465bd1ca7974982448fc7475c2da8a88cb2b56836b830730e93439addc3e",
+    "scripts\\verify_browser.mjs": "02e50f4ba6841c175ce4bebfe75eab36ef0b5921f3cecf32cdaa20d1808bfe4f",
+    "app_streamlit.py": "0975bd3446d6823ddcf660df83c5da450dbd720383cedbe15ff87bb0fa81940b",
+    "inference.py": "8c3242c70c3a83088827e3d1cb5ac23a0ac99ed1d54152550053232f438603df",
+    "pyproject.toml": "c50f04222ccb0420c1066ccdc9c0726f016430fbc49abae2f23525467b9e9588",
+    "uv.lock": "05a5f349feee4f1f85492ad68070a7a0bf65ea88ff386c6aa1326c7f36b02672",
+    ".streamlit/config.toml": "fac62710d9ccdd474cd93835df8a3c3e92348f32aa84ed6e9a714841ea1a3a80"
+  },
+  "browser_cases": 3,
+  "contrast_and_heading_checks": "passed",
+  "remaining_framework_axe_findings": [
+    "button-name",
+    "region"
+  ]
+}

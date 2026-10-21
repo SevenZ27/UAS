@@ -1,0 +1,77 @@
+{
+  "origin": "http://127.0.0.1:8518",
+  "cases": [
+    {
+      "width": 1440,
+      "version": "155.0.8059.85",
+      "inputCount": 18,
+      "localPrediction": true,
+      "editClearsResult": true,
+      "resetRestoresExample": true,
+      "missingAWSEndpointIsTechnicalError": true,
+      "localRecovery": true,
+      "overflow": false,
+      "errors": [],
+      "axe": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "count": 34
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "count": 31
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "version": "155.0.8059.85",
+      "inputCount": 18,
+      "localPrediction": true,
+      "editClearsResult": true,
+      "resetRestoresExample": true,
+      "missingAWSEndpointIsTechnicalError": true,
+      "localRecovery": true,
+      "overflow": false,
+      "errors": [],
+      "axe": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "count": 34
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "count": 31
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "version": "155.0.8059.85",
+      "inputCount": 18,
+      "localPrediction": true,
+      "editClearsResult": true,
+      "resetRestoresExample": true,
+      "missingAWSEndpointIsTechnicalError": true,
+      "localRecovery": true,
+      "overflow": false,
+      "errors": [],
+      "axe": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "count": 34
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "count": 31
+        }
+      ]
+    }
+  ]
+}

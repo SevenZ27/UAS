@@ -1,0 +1,10 @@
+*.joblib -text
+*.npz -text
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+# Preserve the exact bytes referenced by frozen report and figure checksums.
+docs/evaluation/stage-two/** -text whitespace=cr-at-eol
+docs/figures/stage-two/** -text whitespace=cr-at-eol

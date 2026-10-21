@@ -1,0 +1,62 @@
+{
+  "keyboardOnlyPrediction": true,
+  "skipLink": true,
+  "tabSequence": [
+    {
+      "tag": "BUTTON",
+      "name": "Deploy"
+    },
+    {
+      "tag": "BUTTON",
+      "name": "Main menu"
+    },
+    {
+      "tag": "SECTION",
+      "name": "Simulator kategori kredit"
+    },
+    {
+      "tag": "A",
+      "name": "Link to heading"
+    },
+    {
+      "tag": "A",
+      "name": "Lewati ke formulir"
+    }
+  ],
+  "inputOrder": [
+    "Usia (tahun)",
+    "Pendapatan tahunan",
+    "Pendapatan bersih bulanan",
+    "Jumlah rekening bank (rekening)",
+    "Jumlah kartu kredit (kartu)",
+    "Jumlah pinjaman (pinjaman)",
+    "Suku bunga (%)",
+    "Selisih dari jatuh tempo (hari)",
+    "Jumlah pembayaran terlambat (kejadian)",
+    "Perubahan limit kredit",
+    "Jumlah pemeriksaan kredit (pemeriksaan)",
+    "Usia riwayat kredit (bulan)",
+    "Sisa utang",
+    "Penggunaan kredit (%)",
+    "Total cicilan bulanan",
+    "Investasi bulanan",
+    "Saldo bulanan"
+  ],
+  "focusRing": {
+    "style": "solid",
+    "width": "3px",
+    "color": "rgb(7, 86, 161)"
+  },
+  "manualContrast": {
+    "foreground": "rgb(49, 51, 63)",
+    "background": "rgb(255, 255, 255)",
+    "ratio": 12.530577405397876
+  },
+  "mobileMatrixFit": {
+    "table": 254,
+    "region": 254,
+    "scroll": 254
+  },
+  "text200PercentNoOverflow": true,
+  "reducedMotion": true
+}
